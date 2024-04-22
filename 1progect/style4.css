@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    color: #000;
+}
+header{
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 400px;
+}
+.navbar-title h1{
+    color: #000;
+    font-size: 48px;
+}
+.navbar-title p{
+    color: #000;
+    margin-top: -10px;
+    font-size: 19px;
+}
+.navbar{
+    display: flex;
+    gap: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.navbar a{
+    color: #9B9B9B;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: #00C2FF;
+    transition: 0.7s;
+    text-decoration: underline 4px;
+}
+.bottom-header{
+    height: 500px;
+    background: url(./Rectangle\ 546\ \(1\).png) no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding-left: 250px;
+}
+.bottom-header h1{
+    color: #fff;
+    font-size: 65px;
+    font-family: sans-serif;
+    padding-top: 150px;
+}
+.container{
+    padding-top: 99px;
+    padding-left: 20%;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 50px;
+    margin-top: 120px;
+}
+.box h1{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 33px;
+}
+.box button{
+    margin-top: 15px;
+    width: 63px;
+    height: 2px;
+    border-radius: 2px;
+    background: #00C2FF;
+    border: none;
+}
+.box p{
+    margin-top: 21px;
+    color: #010101;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.oreng{
+    margin-top: 100px;
+    width: 1100px;
+    height: 49px;
+    border-radius: 5px;
+    background: #FEFAF2;
+    
+}
+.oreng p{
+    padding-left: 40px;
+    padding-top: 10px;
+    color: #F3A000;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.bottom-oreng{
+    margin-top: 50px;
+    width: 1140px;
+    height: 2px;
+}
+.title-icon{
+    margin-top: 80px;
+    display: flex;
+    gap: 121px;
+    padding-left: 5%;
+}
+.title-icon img{
+    width: 50px;
+    height: 50px;
+}
+.title-icon p{
+    margin-top: 25px;
+    color: #010101;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.bottom-title-icon{
+    margin-top: 80px;
+    width: 1140px;
+    height: 2px;
+}
+
+
+.blok-text{
+    padding-top: 60px;
+    text-align: center;
+}
+.blok-text h1{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.blok-text button{
+    margin-top: 10px;
+    height: 4px;
+    width: 140px;
+    border: none;
+    background-color: #00C2FF;
+    border-radius: 2px;
+}
+.blok-text p{
+    margin-top: 20px;
+    color: #858585;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    text-align: center;
+    padding-top: 4%;
+    width: 350px;
+    height: 230px;
+    border-right: 1px solid #525252;
+    border-bottom: 1px solid #525252;
+}
+
+.card p{
+    color: #858585;
+    font-family: sans-serif;
+    font-size: 19px;
+    margin-top: 24px;
+}
+
+
+.start-footer{
+    margin-top: 120px;
+    height: 650px;
+    background: url(./Rectangle\ 541\ \(4\).png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+.start-footer h1{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 41px;
+}
+.start-footer h4{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.start-footer button{
+    border: none;
+    width: 290px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.start-footer button:hover{
+    background-color: #696969;
+    transition: 0.6s;
+    color: #fff;
+}
+.start-footer button p{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.start-footer button img{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+footer{
+    background-color: #505053;
+    height: 1114px;
+}
+.footer{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+.footer h1{
+    font-size: 70px;
+    margin: 0;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer p{
+    color: #C5C5C5;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.footer h5{
+    margin-top: 20px;
+    color: #C5C5C5;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer-end{
+    display: flex;
+    padding-top: 30px;;
+    gap: 63%;
+    justify-content: center;
+}
